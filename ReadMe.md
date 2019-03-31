@@ -10,4 +10,4 @@ the script search in the file name and their contents
 
 Version 1.0
 Last Update Mar. 2019
-By Massili Kezzoul -> mailto:massy.kezzoul@gmail.co
+By Massili Kezzoul -> mailto:massy.kezzoul@gmail.com
