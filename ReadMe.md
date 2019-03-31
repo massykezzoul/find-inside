@@ -4,7 +4,7 @@ Python script that find recursively a keyword on a given directory
 ## how to Install
 
 open terminal and run the following commande
-- `git pull ...`
+- `git clone git@github.com:massykezzoul/find-inside.git`
 - `cd find-inside`
 - `chmod u+x install.sh`
 - `./install.sh`
