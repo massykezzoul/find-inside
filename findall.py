@@ -10,7 +10,7 @@ def help():
     print("By Kezzoul Massili -> mailto:massy.kezzoul@gmail.com")
     print("Github -> https://github.com/massykezzoul")
     print("Mar. 2019")
-    exit(1)
+    exit()
 
 ## retourne l'extension du fichier (sans le '.')
 def extension(name):
