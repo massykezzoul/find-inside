@@ -4,6 +4,8 @@
 ## so that you can use it from any directory like this : `findall [dir] "KetWord"`
 ## if ~/bin/ do not exists it will be created
 
+chmod u+x findall.py
+
 if [ ! -d $HOME/bin/ ] 
 then
     mkdir $HOME/bin/
