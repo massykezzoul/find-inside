@@ -1,7 +1,15 @@
 # find-inside
 Python script that find recursively a keyword on a given directory
 
-## How it work
+## how to Install
+
+open terminal and run the following commande
+- `git pull ...`
+- `cd find-inside`
+- `chmod u+x install.sh`
+- `./install.sh`
+
+## How it Work
 
 Use it like this : `findall [directory] "Keyword"`
 
