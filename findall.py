@@ -3,10 +3,11 @@
 import sys,re,os
 
 def help():
+    progName = "findall" # change this if the program name changed
     print("Use it like this :")
-    print("\t"+sys.argv[0]+" [directory] \"Something to find\"")
+    print("\t"+progName+" [directory] \"Something to find\"")
     print()
-    print("findall version 1.0")
+    print(progName,"version 1.0")
     print("By Kezzoul Massili -> mailto:massy.kezzoul@gmail.com")
     print("Github -> https://github.com/massykezzoul")
     print("Mar. 2019")
@@ -32,7 +33,11 @@ def listRe(rep,l,reg):
 # Fonction de parcour de repertoire avec recherche de mot cle
 def parcours(rep,find) :
     print("\rEn Cours ...",end="")
-    liste = os.listdir(rep)
+    try:
+        liste = os.listdir(rep)
+    except PermissionError:
+        print("\rPermission denied on :",rep,file=sys.stderr)
+        return []
     files = listRe(rep,liste,"^.*"+find+".*$") # recherche sur les nom de fichiers
     for file in liste:
         if os.path.isdir(os.path.join(rep,file)):
