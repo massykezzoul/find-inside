@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
 
+#############################################################################################################
+#                                                 findall                                                   #
+#                                                                                                           #
+# Programme writed to use with python3 (version 3.6.7)                                                      #
+# You can use, edit and distribute this program, with or without modification keeping this copyright notice #
+#                                                                                                           #
+# March 2019                                                                                                #
+# By Kezzoul Massili                                                                                        #
+# For information contact me at : massy.kezzoul@gmail.com                                                   #
+#                                                                                                           #
+#############################################################################################################
+
 import sys,re,os
 
 def help():
